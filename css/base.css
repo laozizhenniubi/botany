@@ -1,0 +1,48 @@
+.Knowledge_tdtop { 
+		BORDER-BOTTOM: #6B4A03 1px solid; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: #6B4A03 2px solid;PADDING-TOP:5px; PADDING-BOTTOM:5px; PADDING-LEFT:15px; PADDING-RIGHT:15px
+}
+.Knowledge_tdmiddle {
+		BORDER-BOTTOM: #6B4A03 1px dotted; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-TOP:5px; PADDING-BOTTOM:5px; PADDING-LEFT:15px; PADDING-RIGHT:15px
+}
+
+.Knowledge_tdbottom {
+		BORDER-BOTTOM: #6B4A03 2px solid; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-TOP:5px; PADDING-BOTTOM:5px; PADDING-LEFT:15px; PADDING-RIGHT:15px
+}
+.black12150 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 150%;
+	color: #000000;
+	text-decoration:none
+}
+.black12150 A{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 150%;
+	color: #000000;
+	text-decoration:none
+}
+.black12150 A:visited{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 150%;
+	color: #000000;
+	text-decoration:none
+}
+
+.black12150 A:hover{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 150%;
+	color: #000000;
+	text-decoration:underline
+}
+
+
+
+
+
+
+
+
+

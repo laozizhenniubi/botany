@@ -1,0 +1,163 @@
+.listmenu {  
+	font-family: "宋体"; font-size: 12px; color: #3C5166; background-color: #B4C9C2;text-decoration:none
+}
+.white_s14_1_b {
+	font-family: "宋体"; font-size: 14px; font-weight: bold; color: #FFFFFF;cursor:hand;text-decoration:none
+}
+.white_s14_1_b A{
+	font-family: "宋体"; font-size: 14px; font-weight: bold; color: #FFFFFF;cursor:hand;text-decoration:none
+}
+.white_s14_1_b A:Visited{
+	font-family: "宋体"; font-size: 14px; font-weight: bold; color: #FFFFFF;cursor:hand;text-decoration:none
+}
+.white_s14_1_b A:hover{
+	font-family: "宋体"; font-size: 14px; font-weight: bold; color: #FFFF21;cursor:hand;text-decoration:none
+}
+
+
+
+.navtext {
+	BORDER-RIGHT: white 1px; BORDER-TOP: white 1px; FONT: bold 9pt sans-serif; BORDER-LEFT: white 1px; WIDTH: 235px; COLOR: black; BORDER-BOTTOM: white 1px ; BACKGROUND-COLOR:#B2D6F3; TEXT-ALIGN: left; layer-background-color: #B2D6F3
+}
+.menu {
+	BORDER-RIGHT: #699485 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #699485 1px solid; PADDING-LEFT: 0px; BACKGROUND: #699485; LEFT: 0px; VISIBILITY: hidden; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: visible; BORDER-LEFT: #466D5F 1px solid; WIDTH: 150px; PADDING-TOP: 0px; BORDER-BOTTOM: #699485 1px solid; POSITION: absolute; TOP: 0px
+}
+.menu A {
+	PADDING-LEFT: 14px; PADDING-RIGHT: 7px; PADDING-TOP: 7px; PADDING-BOTTOM: 7px;FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #699485; WIDTH: 150px; COLOR: white; FONT-FAMILY: 宋体; TEXT-DECORATION: none;BORDER-BOTTOM: #5C8778 1px solid;
+}
+.menu A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #699485; COLOR: white; FONT-FAMILY: 宋体; TEXT-DECORATION: none;
+}
+.menu A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #C3D6CF; COLOR: black; FONT-FAMILY: 宋体; TEXT-DECORATION: none;
+}
+
+.menu1 {
+	BORDER-RIGHT: #699485 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #699485 1px solid; PADDING-LEFT: 0px; BACKGROUND: #699485; LEFT: 0px; VISIBILITY: hidden; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: visible; BORDER-LEFT: #466D5F 1px solid; WIDTH: 150px; PADDING-TOP: 0px; BORDER-BOTTOM: #699485 1px solid; POSITION: absolute; TOP: 0px
+}
+.menu1 A {
+	PADDING-LEFT: 14px; PADDING-RIGHT: 7px; PADDING-TOP: 7px; PADDING-BOTTOM: 7px;FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #699485; WIDTH: 200px; COLOR: white; FONT-FAMILY: 宋体; TEXT-DECORATION: none;BORDER-BOTTOM: #5C8778 1px solid;
+}
+.menu1 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #699485; COLOR: white; FONT-FAMILY: 宋体; TEXT-DECORATION: none;
+}
+.menu1 A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #C3D6CF; COLOR: black; FONT-FAMILY: 宋体; TEXT-DECORATION: none;
+}
+
+
+.menuleft {
+font-family: "宋体"; font-size: 14px; color: #112118; font-weight: bold
+;TEXT-DECORATION: none; VISIBILITY: hidden;OVERFLOW: visible; POSITION: absolute;border-left:#112118 1px solid;padding-left:2px;border-right:#112118 1px solid;padding-right:2px;border-top:#112118 1px solid;padding-top:2px;border-bottom:#112118 1px solid;padding-bottom:2px;;background:#B4C9C2;
+}
+.menuleft A { 
+FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #112118; FONT-FAMILY: 宋体;PADDING-left:2px;padding-right:2px;padding-top:2px;padding-bottom:2px; TEXT-DECORATION: none; BACKGROUND:#B4C9C2;WIDTH: 138px
+}
+.menuleft A:visited { 
+FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #112118; FONT-FAMILY: 宋体;border-left:#B4C9C2 1px solid;PADDING-left:2px;border-right:#B4C9C2 1px solid;padding-right:2px;border-top:#B4C9C2 1px solid;padding-top:2px;border-bottom:#B4C9C2 1px solid;padding-bottom:2px;TEXT-DECORATION: none
+}
+.menuleft A:hover {
+FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #112118; FONT-FAMILY: 宋体;border-left:#112118 1px solid;PADDING-left:2px;border-right:#112118 1px solid;padding-right:2px;border-top:#112118 1px solid;padding-top:2px;border-bottom:#112118 1px solid;padding-bottom:2px;background:#A2BBB3;TEXT-DECORATION: none
+}
+
+
+.deepgreen_s14_15_b {  
+	font-family: "宋体"; font-size: 14px; line-height: 150%; color: #004000; font-weight: bold
+; clip:  rect(   );TEXT-DECORATION: none; 
+}
+.deepgreen_s14_15_b A { 
+FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #004000; FONT-FAMILY: 宋体; TEXT-DECORATION: none; 
+}
+.deepgreen_s14_15_b A:visited { 
+FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #004000; FONT-FAMILY: 宋体; TEXT-DECORATION: none; 
+}
+.deepgreen_s14_15_b A:hover {
+border-left:#112118 1px solid;PADDING-left: 23px;border-right:#112118 1px solid;padding-right:23px;border-top:#112118 1px solid;padding-top:2px;border-bottom:#112118 1px solid;padding-bottom:0px;background:#A2BBB3;TEXT-DECORATION: none; 
+}
+
+
+.deepgreen_s14_15_bc {  
+	font-family: "宋体"; font-size: 14px; line-height: 150%; color: #004000; font-weight: bold
+; clip:  rect(   );TEXT-DECORATION: none; 
+}
+.deepgreen_s14_15_bc A { 
+FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #004000; FONT-FAMILY: 宋体; TEXT-DECORATION: none; 
+}
+.deepgreen_s14_15_bc A:visited { 
+FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #004000; FONT-FAMILY: 宋体; TEXT-DECORATION: none; 
+}
+.deepgreen_s14_15_bc A:hover {
+border-left:#112118 1px solid;PADDING-left: 23px;border-right:#112118 1px solid;padding-right:23px;border-top:#112118 1px solid;padding-top:2px;border-bottom:#112118 1px solid;padding-bottom:0px;background:#A2BBB3;TEXT-DECORATION: none; 
+}
+
+
+.skin0 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 14px; Z-INDEX: 100; VISIBILITY: hidden; BORDER-LEFT: black 1px solid; WIDTH: 165px; CURSOR: default; LINE-HEIGHT: 20px; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: "Verdana"; POSITION: absolute; BACKGROUND-COLOR: menu
+}
+.menuitems {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.leftmove {  font-family: "宋体"; font-size: 14px; color: #000000; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; border: #466D5F; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.green_s12_1 {  font-family: "宋体"; font-size: 12px; line-height: normal; color: #365447}
+.black_14_150 {  font-family: "宋体"; font-size: 14px; line-height: 150%; color: #000000}
+.textstyle {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: normal;
+	color: #993300;
+	width: auto;
+	border: 1px solid #000000;
+	background-color: #F6F5F2;
+
+}
+.listmenustyle2 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: normal;
+	color: #993300;
+	background-color: #F6F5F2;
+}
+.white12150 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+.black12150 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 150%;
+	color: #000000;
+	text-decoration:none
+}
+.black12150 A{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 150%;
+	color: #000000;
+	text-decoration:none
+}
+.black12150 A:visited{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 150%;
+	color: #000000;
+	text-decoration:none
+}
+.black12150 A:hover{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 150%;
+	color: #000000;
+	text-decoration:underline
+}
+.press {
+	COLOR: #0000ff; CURSOR: hand; FONT-FAMILY: "仿宋_GB2312"
+}
+
+
+
+
+
+
+

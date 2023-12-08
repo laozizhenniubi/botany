@@ -1,0 +1,142 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>笔记本</title>
+
+<script LANGUAGE="JavaScript" SRC="cookie.js"><!--
+// --></script>
+<script LANGUAGE="JavaScript">
+<!--
+
+<!--
+function loadNotes() {
+ var cookie=document.cookie
+ if(nameDefined(cookie,"Notes")) { 
+  notes=getCookieValue(cookie,"Notes")
+  notes=decode(notes)
+ }else notes=""
+ document.forms[0].notesArea.value=notes
+}
+function saveNotes() {
+ notes=window.document.forms[0].notesArea.value
+ notes=encode(notes)
+ var newCookie = "Notes="+notes+"; expires="
+ newCookie += "Tuesday, 09-Nov-10 23:12:40 GMT"
+ document.cookie=newCookie
+}
+function encode(s) {
+ t=""
+ for(var i=0;i<s.length;++i) {
+  ch=s.charAt(i)
+  if(ch=="/") t += "//"
+  else if(ch==" ") t += "/b"
+  else if(ch==",") t += "/."
+  else if(ch==";") t += "/:"
+  else if(ch=="\n") t += "/n"
+  else if(ch=="\r") t += "/r"
+  else if(ch=="\t") t += "/t"
+  else if(ch=="\b") t += "/b"
+  else t += ch
+ }
+ return t
+}
+function decode(s) {
+ // Decode the encoded cookie value
+ t=""
+ if(s==null) return t
+ for(var i=0;i<s.length;++i) {
+  var ch=s.charAt(i)
+  if(ch=="/") {
+   ++i
+   if(i<s.length){
+	ch=s.charAt(i)
+	if(ch=="/") t += ch
+	else if(ch==".") t += ","
+	else if(ch==":") t += ";"
+	else if(ch=="n") t += "\n"
+	else if(ch=="r") t += "\r"
+	else if(ch=="t") t += "\t"
+	else if(ch=="b") t += " "
+   }
+  }else t += ch
+ }
+ return t
+}
+// -->
+
+function MM_swapImgRestore() { //v2.0
+  if (document.MM_swapImgData != null)
+    for (var i=0; i<(document.MM_swapImgData.length-1); i+=2)
+      document.MM_swapImgData[i].src = document.MM_swapImgData[i+1];
+}
+
+function MM_preloadImages() { //v2.0
+  if (document.images) {
+    var imgFiles = MM_preloadImages.arguments;
+    if (document.preloadArray==null) document.preloadArray = new Array();
+    var i = document.preloadArray.length;
+    with (document) for (var j=0; j<imgFiles.length; j++) if (imgFiles[j].charAt(0)!="#"){
+      preloadArray[i] = new Image;
+      preloadArray[i++].src = imgFiles[j];
+  } }
+}
+
+function MM_swapImage() { //v2.0
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData;
+  for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+    objStr = MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+        (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src = MM_swapImage.arguments[i+2];
+  } }
+  document.MM_swapImgData = swapArray; //used for restore
+}
+//-->
+</script>
+
+<style>
+<style type="text/css">
+<!--
+body , td {font-size=9pt}
+body {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+-->
+</style>
+</head>
+
+<body>
+
+<table width="270" border="1" bordercolorlight="#000000" bordercolordark="#808080"
+align="center" height="356" cellspacing="1" cellpadding="0" background="back2.jpg">
+  <tr align="center">
+    <td width="263" height="46">　
+<form name>
+        <p> 
+          <textarea name="notesArea" rows="12" cols="21" wrap="VIRTUAL"></textarea>
+          <br>
+          <font color="#FFFFFF">&nbsp;<br>
+          &nbsp; </font><font color="#0000FF">嘿!同学好!这是您的随时记。</font><br>     
+        </p>     
+    </form>     
+    <p align="center">　<a href="#" onMouseOut="MM_swapImgRestore()"  
+    onMouseOver="MM_swapImage('document.Image1','document.Image1','1.jpg','#942130031200')"  
+    onClick="saveNotes()"><img name="Image1" border="0" src="2.jpg" width="43" height="44"></a>   
+    <script language="JavaScript"><!--      
+ loadNotes()      
+// --></script>       
+           
+    </td>      
+  </tr>      
+</table>      
+    
+</body>      
+      
+</html>      

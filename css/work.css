@@ -1,0 +1,29 @@
+.biaoti {  font-family: "黑体"; font-size: 20px; line-height: 200%; color: #275078}
+
+.neirong {  font-family: "宋体"; font-size: 14px; font-style: normal; line-height: 180%; color: #003300; text-decoration: none}
+.neirong A{  font-family: "宋体"; font-size: 14px; line-height: 180%; color: #003300; TEXT-DECORATION: none}
+.neirong A:visited{  font-family: "宋体"; font-size: 14px; line-height: 180%; color: #003300; TEXT-DECORATION: none}
+.neirong A:hover{  font-family: "宋体"; font-size: 14px; line-height: 180%; color: #003300; TEXT-DECORATION: none}
+.table1 {  font-family: "宋体"; font-size: 12px; line-height: 110%; color: #003300}
+
+.fubiaoti {  font-family: "黑体"; font-size: 16px; line-height: 200%; color: #6633FF}
+.fubiaoti A{  font-family: "黑体"; font-size: 16px; line-height: 200%; color: #6633FF; TEXT-DECORATION: none}
+.fubiaoti A:visited{  font-family: "黑体"; font-size: 16px; line-height: 200%; color: #6633FF; TEXT-DECORATION: none}
+.fubiaoti A:hover{  font-family: "黑体"; font-size: 16px; line-height: 200%; color: #6633FF; TEXT-DECORATION: none}
+
+.back {  font-family: "宋体"; font-size: 14px; font-weight: normal; font-variant: normal; text-transform: none; color: #003300; font-style: normal; line-height: 150%; text-decoration: none}
+.boxneirong {  font-family: "宋体"; font-size: 12px; font-style: normal; line-height: 120%; font-weight: normal; font-variant: normal; text-transform: none; color: #004000}
+.noline {  text-decoration: none}
+.fbnoline {  font-size: 14px; color: #003399; font-family: "宋体"; font-style: normal; line-height: 120%; font-weight: bold; text-decoration: none}
+.wzflash {  font-family: "宋体"; font-size: 14px; font-style: normal; font-weight: bold; color: #004000; text-decoration: none; line-height: 150%}
+.location {  font-family: "宋体"; font-size: 14px; line-height: normal; color: #003300}
+.title1 {  font-family: "黑体"; font-size: 20px; line-height: 200%; color: #275078}
+.title2 {  font-family: "黑体"; font-size: 16px; line-height: 200%; color: #6633FF}
+.title2 A{  font-family: "黑体"; font-size: 16px; line-height: 200%; color: #6633FF; TEXT-DECORATION: none}
+.title2 A:visited{  font-family: "黑体"; font-size: 16px; line-height: 200%; color: #6633FF; TEXT-DECORATION: none}
+.title2 A:hover{  font-family: "黑体"; font-size: 16px; line-height: 200%; color: #6633FF; TEXT-DECORATION: none}
+.title3 {  font-family: "宋体"; font-size: 14px; line-height: 180%; color: #003300}
+.title3 A{  font-family: "宋体"; font-size: 14px; line-height: 180%; color: #003300; TEXT-DECORATION: none}
+.title3 A:visited{  font-family: "宋体"; font-size: 14px; line-height: 180%; color: #003300; TEXT-DECORATION: none}
+.title3 A:hover{  font-family: "宋体"; font-size: 14px; line-height: 180%; color: #003300; TEXT-DECORATION: underline;}
+.table1 {  font-family: "宋体"; font-size: 12px; line-height: 110%; color: #003300}

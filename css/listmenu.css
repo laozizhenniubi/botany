@@ -1,0 +1,41 @@
+.selectBdr {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.selectedText {
+	FONT-SIZE: 12px; OVERFLOW: hidden; WIDTH: 100%; TEXT-INDENT: 2px; HEIGHT: 14px
+}
+.listText {
+	font-family: "宋体"; font-size: 12px; line-height: 150%; color: #000000;text-decoration:none
+}
+.listText A{
+	font-family: "宋体"; font-size: 12px; line-height: 150%; color: #000000;text-decoration:none
+}
+.listText A:visited{
+	font-family: "宋体"; font-size: 12px; line-height: 150%; color: #000000;text-decoration:none
+}
+.listText A:hover{
+	font-family: "宋体"; font-size: 12px; line-height: 150%; color: #000000;text-decoration:underline
+}
+
+.listText2 {
+	font-family: "宋体"; font-size: 12px; line-height: 150%; color: #000000;text-decoration:none; BACKGROUND-COLOR: #3399cc
+}
+.listText2 A{
+	font-family: "宋体"; font-size: 12px; line-height: 150%; color: #000000;text-decoration:none; BACKGROUND-COLOR: #3399cc
+}
+.listText2 A:visited{
+	font-family: "宋体"; font-size: 12px; line-height: 150%; color: #000000;text-decoration:none; BACKGROUND-COLOR: #3399cc
+}
+.listText2 A:hover{
+	font-family: "宋体"; font-size: 12px; line-height: 150%; color: #000000;text-decoration:underline; BACKGROUND-COLOR: #3399cc
+}
+
+
+
+
+
+
+
+
+
+

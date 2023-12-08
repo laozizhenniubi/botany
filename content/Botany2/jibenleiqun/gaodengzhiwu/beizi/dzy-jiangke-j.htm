@@ -1,0 +1,529 @@
+<html><!-- #BeginTemplate "/Templates/botany-2.dwt" --><!-- DW6 -->
+<head>
+<title>植物分类及类群</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="../../../../../css/style2.css" type="text/css">
+<link rel="stylesheet" href="../../../../../css/work2.css" type="text/css">
+<SCRIPT language=javascript src="../../../../../js/menu.js"></SCRIPT>
+<SCRIPT language=JavaScript src="../../../../../js/newsmod.js"></SCRIPT>
+<SCRIPT language=JavaScript src="../../../../../js/fullscreen.js"></SCRIPT>
+<SCRIPT language=JavaScript src="../../../../../js/scrollimage.js"></SCRIPT>
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_openBrWindow(theURL,winName,features) { 
+  window.open(theURL,winName,features);
+}
+function MM_dragLayer(objName,x,hL,hT,hW,hH,toFront,dropBack,cU,cD,cL,cR,targL,targT,tol,dropJS,et,dragJS) { //v4.01
+  //Copyright 1998 Macromedia, Inc. All rights reserved.
+  var i,j,aLayer,retVal,curDrag=null,curLeft,curTop,IE=document.all,NS4=document.layers;
+  var NS6=(!IE&&document.getElementById), NS=(NS4||NS6); if (!IE && !NS) return false;
+  retVal = true; if(IE && event) event.returnValue = true;
+  if (MM_dragLayer.arguments.length > 1) {
+    curDrag = MM_findObj(objName); if (!curDrag) return false;
+    if (!document.allLayers) { document.allLayers = new Array();
+      with (document) if (NS4) { for (i=0; i<layers.length; i++) allLayers[i]=layers[i];
+        for (i=0; i<allLayers.length; i++) if (allLayers[i].document && allLayers[i].document.layers)
+          with (allLayers[i].document) for (j=0; j<layers.length; j++) allLayers[allLayers.length]=layers[j];
+      } else {
+        if (NS6) { var spns = getElementsByTagName("span"); var all = getElementsByTagName("div"); 
+          for (i=0;i<spns.length;i++) if (spns[i].style&&spns[i].style.position) allLayers[allLayers.length]=spns[i];}
+        for (i=0;i<all.length;i++) if (all[i].style&&all[i].style.position) allLayers[allLayers.length]=all[i]; 
+    } }
+    curDrag.MM_dragOk=true; curDrag.MM_targL=targL; curDrag.MM_targT=targT;
+    curDrag.MM_tol=Math.pow(tol,2); curDrag.MM_hLeft=hL; curDrag.MM_hTop=hT;
+    curDrag.MM_hWidth=hW; curDrag.MM_hHeight=hH; curDrag.MM_toFront=toFront;
+    curDrag.MM_dropBack=dropBack; curDrag.MM_dropJS=dropJS;
+    curDrag.MM_everyTime=et; curDrag.MM_dragJS=dragJS;
+    curDrag.MM_oldZ = (NS4)?curDrag.zIndex:curDrag.style.zIndex;
+    curLeft= (NS4)?curDrag.left:(NS6)?parseInt(curDrag.style.left):curDrag.style.pixelLeft; 
+    if (String(curLeft)=="NaN") curLeft=0; curDrag.MM_startL = curLeft;
+    curTop = (NS4)?curDrag.top:(NS6)?parseInt(curDrag.style.top):curDrag.style.pixelTop; 
+    if (String(curTop)=="NaN") curTop=0; curDrag.MM_startT = curTop;
+    curDrag.MM_bL=(cL<0)?null:curLeft-cL; curDrag.MM_bT=(cU<0)?null:curTop-cU;
+    curDrag.MM_bR=(cR<0)?null:curLeft+cR; curDrag.MM_bB=(cD<0)?null:curTop+cD;
+    curDrag.MM_LEFTRIGHT=0; curDrag.MM_UPDOWN=0; curDrag.MM_SNAPPED=false; //use in your JS!
+    document.onmousedown = MM_dragLayer; document.onmouseup = MM_dragLayer;
+    if (NS) document.captureEvents(Event.MOUSEDOWN|Event.MOUSEUP);
+  } else {
+    var theEvent = ((NS)?objName.type:event.type);
+    if (theEvent == 'mousedown') {
+      var mouseX = (NS)?objName.pageX : event.clientX + document.body.scrollLeft;
+      var mouseY = (NS)?objName.pageY : event.clientY + document.body.scrollTop;
+      var maxDragZ=null; document.MM_maxZ = 0;
+      for (i=0; i<document.allLayers.length; i++) { aLayer = document.allLayers[i];
+        var aLayerZ = (NS4)?aLayer.zIndex:parseInt(aLayer.style.zIndex);
+        if (aLayerZ > document.MM_maxZ) document.MM_maxZ = aLayerZ;
+        var isVisible = (((NS4)?aLayer.visibility:aLayer.style.visibility).indexOf('hid') == -1);
+        if (aLayer.MM_dragOk != null && isVisible) with (aLayer) {
+          var parentL=0; var parentT=0;
+          if (NS6) { parentLayer = aLayer.parentNode;
+            while (parentLayer != null && parentLayer.style.position) {             
+              parentL += parseInt(parentLayer.offsetLeft); parentT += parseInt(parentLayer.offsetTop);
+              parentLayer = parentLayer.parentNode;
+          } } else if (IE) { parentLayer = aLayer.parentElement;       
+            while (parentLayer != null && parentLayer.style.position) {
+              parentL += parentLayer.offsetLeft; parentT += parentLayer.offsetTop;
+              parentLayer = parentLayer.parentElement; } }
+          var tmpX=mouseX-(((NS4)?pageX:((NS6)?parseInt(style.left):style.pixelLeft)+parentL)+MM_hLeft);
+          var tmpY=mouseY-(((NS4)?pageY:((NS6)?parseInt(style.top):style.pixelTop) +parentT)+MM_hTop);
+          if (String(tmpX)=="NaN") tmpX=0; if (String(tmpY)=="NaN") tmpY=0;
+          var tmpW = MM_hWidth;  if (tmpW <= 0) tmpW += ((NS4)?clip.width :offsetWidth);
+          var tmpH = MM_hHeight; if (tmpH <= 0) tmpH += ((NS4)?clip.height:offsetHeight);
+          if ((0 <= tmpX && tmpX < tmpW && 0 <= tmpY && tmpY < tmpH) && (maxDragZ == null
+              || maxDragZ <= aLayerZ)) { curDrag = aLayer; maxDragZ = aLayerZ; } } }
+      if (curDrag) {
+        document.onmousemove = MM_dragLayer; if (NS4) document.captureEvents(Event.MOUSEMOVE);
+        curLeft = (NS4)?curDrag.left:(NS6)?parseInt(curDrag.style.left):curDrag.style.pixelLeft;
+        curTop = (NS4)?curDrag.top:(NS6)?parseInt(curDrag.style.top):curDrag.style.pixelTop;
+        if (String(curLeft)=="NaN") curLeft=0; if (String(curTop)=="NaN") curTop=0;
+        MM_oldX = mouseX - curLeft; MM_oldY = mouseY - curTop;
+        document.MM_curDrag = curDrag;  curDrag.MM_SNAPPED=false;
+        if(curDrag.MM_toFront) {
+          eval('curDrag.'+((NS4)?'':'style.')+'zIndex=document.MM_maxZ+1');
+          if (!curDrag.MM_dropBack) document.MM_maxZ++; }
+        retVal = false; if(!NS4&&!NS6) event.returnValue = false;
+    } } else if (theEvent == 'mousemove') {
+      if (document.MM_curDrag) with (document.MM_curDrag) {
+        var mouseX = (NS)?objName.pageX : event.clientX + document.body.scrollLeft;
+        var mouseY = (NS)?objName.pageY : event.clientY + document.body.scrollTop;
+        newLeft = mouseX-MM_oldX; newTop  = mouseY-MM_oldY;
+        if (MM_bL!=null) newLeft = Math.max(newLeft,MM_bL);
+        if (MM_bR!=null) newLeft = Math.min(newLeft,MM_bR);
+        if (MM_bT!=null) newTop  = Math.max(newTop ,MM_bT);
+        if (MM_bB!=null) newTop  = Math.min(newTop ,MM_bB);
+        MM_LEFTRIGHT = newLeft-MM_startL; MM_UPDOWN = newTop-MM_startT;
+        if (NS4) {left = newLeft; top = newTop;}
+        else if (NS6){style.left = newLeft; style.top = newTop;}
+        else {style.pixelLeft = newLeft; style.pixelTop = newTop;}
+        if (MM_dragJS) eval(MM_dragJS);
+        retVal = false; if(!NS) event.returnValue = false;
+    } } else if (theEvent == 'mouseup') {
+      document.onmousemove = null;
+      if (NS) document.releaseEvents(Event.MOUSEMOVE);
+      if (NS) document.captureEvents(Event.MOUSEDOWN); //for mac NS
+      if (document.MM_curDrag) with (document.MM_curDrag) {
+        if (typeof MM_targL =='number' && typeof MM_targT == 'number' &&
+            (Math.pow(MM_targL-((NS4)?left:(NS6)?parseInt(style.left):style.pixelLeft),2)+
+             Math.pow(MM_targT-((NS4)?top:(NS6)?parseInt(style.top):style.pixelTop),2))<=MM_tol) {
+          if (NS4) {left = MM_targL; top = MM_targT;}
+          else if (NS6) {style.left = MM_targL; style.top = MM_targT;}
+          else {style.pixelLeft = MM_targL; style.pixelTop = MM_targT;}
+          MM_SNAPPED = true; MM_LEFTRIGHT = MM_startL-MM_targL; MM_UPDOWN = MM_startT-MM_targT; }
+        if (MM_everyTime || MM_SNAPPED) eval(MM_dropJS);
+        if(MM_dropBack) {if (NS4) zIndex = MM_oldZ; else style.zIndex = MM_oldZ;}
+        retVal = false; if(!NS) event.returnValue = false; }
+      document.MM_curDrag = null;
+    }
+    if (NS) document.routeEvent(objName);
+  } return retVal;
+}
+
+function MM_showHideLayers() { //v3.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#ffffff" text="#000000"  leftmargin="0" topmargin="0" onLoad="MM_preloadImages('../../../../../images/b2_images/favorites2.gif','../../../../../images/b2_images/mynote2.gif')">
+<DIV class=skin0 id=ie5menu onmouseover=highlightie5(event) onclick=jumptoie5(event) onmouseout=lowlightie5(event) display:none> 
+  <DIV class=menuitems url="javascript:window.history.go(-1);">&nbsp;后 退&nbsp;</DIV>
+  <DIV class=menuitems url="javascript:window.history.go(1);">&nbsp;前 进&nbsp;</DIV>
+  <DIV class=menuitems url="../Default.htm">&nbsp;回 到 首 页&nbsp;</DIV>
+  <HR>
+  <DIV class=menuitems url="../xzd/help.htm">&nbsp;帮 助&nbsp;</DIV>
+  <DIV class=menuitems url="javascript:window.print();">&nbsp;打 印&nbsp;</DIV>
+  <DIV class=menuitems url="javascript:window.external.AddFavorite(document.location.href, '请输入你喜欢的标签名称');">&nbsp;添 
+    加 到 收 藏 夹&nbsp;</DIV>
+  <HR>
+  <DIV class=menuitems url="mailto:wrl@mail.njau.edu.cn">&nbsp;发E-Mail给老师&nbsp;</DIV>
+</DIV>
+<SCRIPT language=javascript src="../../../../../js/quickmenu.js"></SCRIPT>
+<DIV id=overDiv style="Z-INDEX: 1; POSITION: absolute"></DIV>
+<SCRIPT language=JavaScript1.2 src="../../../../../js/moverlayers.js"></SCRIPT>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000">
+  <tr>
+    <td height="8"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="84" background="../../../../../images/b2_images/titlebg.jpg" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="85">
+        <tr>
+          <td width="238"><img src="../../../../../images/b2_images/coursename.jpg" width="248" height="85"></td>
+          <td>&nbsp;</td>
+          <td width="400"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="5"></td>
+              </tr>
+              <tr>
+                <td height="38"><img src="../../../../../images/b2_images/navigation.gif" width="79" height="12" align="middle"> 
+                  <!-- #BeginEditable "newlistmenu" -->
+                  <select name="select" class="listmenu" onChange="location=this.options[this.selectedIndex].value">                    <option>--------植物形态与解剖学部分--------</option>
+                    <option value="../../../../Botany1/cell/cell1.htm">第一章 从 合 子 到 种 子</option>
+                    <option value="../../../../Botany1/cell/cell1.htm"> 第一节 植 
+                    物 细 胞</option>
+                    <option value="../../../../Botany1/cell/cell2.htm"> 第二节 植 
+                    物 组 织</option>
+                    <option value="../../../../Botany1/seed/seed1.htm"> 第三节 种 
+                    子 的 发 育 和 结 构</option>
+                    <option value="../../../../Botany1/fruit/fruit1.htm"> 第四节 
+                    果 实 的 发 育 和 结 构</option>
+                    <option value="../../../../Botany1/history/history1.htm"> 
+                    第五节 被 子 植 物 的 生 活 史</option>
+                    
+                    <option value="../../../../Botany1/root/root0.htm">第二章 营 养 器 官 - 根</option>
+                    <option value="../../../../Botany1/root/root0.htm"> 第一节 根 
+                    的 概 述</option>
+                    <option value="../../../../Botany1/root/root1.htm"> 第二节 根 
+                    系 的 发 生 和 类 型</option>
+                    <option value="../../../../Botany1/root/root2.htm"> 第三节 根 
+                    尖 及 其 分 区</option>
+                    <option value="../../../../Botany1/root/root3.htm"> 第四节 根 
+                    的 结 构</option>
+                    <option value="../../../../Botany1/root/root4.htm"> 第五节 侧 
+                    根 的 产 生</option>
+                    <option value="../../../../Botany1/root/root5_1.htm"> 第六节 
+                    根 瘤 和 菌 根</option>
+                    <option value="../../../../Botany1/root/root6.htm"> 第七节 根 
+                    的 变 态</option>
+                    
+                    <option value="../../../../Botany1/jing/jing1.htm">第三章 营 养 器 官 - 茎</option>
+                    <option value="../../../../Botany1/jing/jing1.htm"> 第一节 茎 
+                    的 主 要 生 理 功 能</option>
+                    <option value="../../../../Botany1/jing/jing2.htm"> 第二节 茎 
+                    的 基 本 形 态</option>
+                    <option value="../../../../Botany1/jing/jing3.htm"> 第三节 芽 
+                    和 分 枝</option>
+                    <option value="../../../../Botany1/jing/jing4.htm"> 第四节 芽 
+                    的 类 型</option>
+                    <option value="../../../../Botany1/jing/jing5.htm"> 第五节 茎 
+                    尖 的 分 区</option>
+                    <option value="../../../../Botany1/jing/jing6.htm"> 第六节 茎 
+                    的 结 构</option>
+                    <option value="../../../../Botany1/jing/jing71.htm"> 第七节 茎 
+                    的 变 态</option>
+                    <option value="../../../../Botany1/jing/jing8.htm"> 第八节 根、茎维管组织的联系</option>
+                    
+                    <option value="../../../../Botany1/leaf/leaf1.htm">第四章 营 养 器 官 - 叶</option>
+                    <option value="../../../../Botany1/leaf/leaf1.htm"> 第一节 叶 
+                    的 主 要 生 理 功 能</option>
+                    <option value="../../../../Botany1/leaf/leaf2.htm"> 第二节 叶 
+                    的 发 生 和 生 长</option>
+                    <option value="../../../../Botany1/leaf/leaf3.htm"> 第三节 叶 
+                    的 基 本 形 态</option>
+                    <option value="../../../../Botany1/leaf/leaf4.htm"> 第四节 叶 
+                    的 解 剖 结 构</option>
+                    <option value="../../../../Botany1/leaf/leaf5.htm"> 第五节 叶形态结构与生态条件的关系</option>
+                    <option value="../../../../Botany1/leaf/leaf6.htm"> 第六节 离 
+                    层 和 落 叶</option>
+                    <option value="../../../../Botany1/leaf/leaf7.htm"> 第七节 变 
+                    态 叶</option>
+                    
+                    <option value="../../../../Botany1/flower/flower0.htm">第五章 生 殖 器 官 - 花</option>
+                    <option value="../../../../Botany1/flower/flower0.htm"> 第一节 
+                    概 述</option>
+                    <option value="../../../../Botany1/flower/flower1.htm"> 第二节 
+                    花 的 组 成 和 发 生</option>
+                    <option value="../../../../Botany1/flower/flower2.htm"> 第三节 
+                    雄 蕊 的 发 育 及 其 结 构</option>
+                    <option value="../../../../Botany1/flower/flower3.htm"> 第四节 
+                    雌 蕊 的 发 育 及 其 结 构</option>
+                    <option value="../../../../Botany1/flower/flower4.htm"> 第五节 
+                    开 花、传 粉 和 受 精</option>
+</select>
+                  <!-- #EndEditable --></td>
+              </tr>
+              <tr>
+                <td height="21">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="21">
+                    <tr>
+                      <td width="100">&nbsp;</td>
+                      <td width="121"><a href="javascript:window.external.AddFavorite(document.location.href, '请输入你喜欢的标签名称');" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('BookMark','','../../../../../images/b2_images/favorites2.gif',1)"><img name="BookMark" border="0" src="../../../../../images/b2_images/favorites1.gif" width="121" height="21"></a></td>
+                      <td width="20">&nbsp;</td>
+                      <td width="121"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('MyNote','','../../../../../images/b2_images/mynote2.gif',1)" onClick="MM_openBrWindow('../../../../../xzd/note.htm','笔记本','width=270,height=356')"><img name="MyNote" border="0" src="../../../../../images/b2_images/mynote1.gif" width="121" height="21"></a></td>
+					  <td>&nbsp;</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td height="5"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#000000" height="1"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="30" bgcolor="#8097B9">
+  <tr> 
+    <td width="170">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="30">
+        <tr>
+          <td width="135"> 
+            <div align="center" class="white_s14_1_b">&nbsp;&nbsp;&nbsp;&nbsp;课 
+              程 资 源</div>
+          </td>
+          <td width="13"> 
+            <SCRIPT language=JavaScript type=text/javascript>
+		<!--
+		onoff('ResourceLeft',false);
+		 //-->
+		</SCRIPT></td>
+          <td width="18"></td>
+        </tr>
+      </table>
+    </td>
+    <td bgcolor="#000000" width="1"></td>
+    <td width="150" onmouseover="expandMenu(null,'Chapter6menu',170,123);" onmouseout="hideMe();" align="center" class="white_s14_1_b">植物分类及类群</td>
+      <DIV class="menu" id="Chapter6menu" onmouseout="hideMe();"> 
+		  <A onmouseover="expandMenu('Chapter6menu','Chapter6menuSub01');" href="../../../fenleixue/1.htm">植物分类的基础知识 &gt;&gt;</A><BR>
+		  <A onmouseover="expandMenu('Chapter6menu','Chapter6menuSub02');" href="../../index.htm">植物的基本类群 &gt;&gt;</A><BR>												
+	  </DIV>
+	  <DIV class="menu" id=Chapter6menuSub01 onmouseout=hideMe();>
+		  <A onmouseover="expandMenu('Chapter6menuSub01');" href="../../../fenleixue/1.htm">分类的方法</A><BR>
+		  <A onmouseover="expandMenu('Chapter6menuSub01');" href="../../../fenleixue/2.htm">分类的单位</A><BR> 
+		  <A onmouseover="expandMenu('Chapter6menuSub01');" href="../../../fenleixue/3.htm">命名的法则</A><BR> 		 
+	  </DIV>	  
+	  <DIV class="menu" id=Chapter6menuSub02 onmouseout=hideMe();>
+		  <A onmouseover="expandMenu('Chapter6menuSub02');" href="../../didengzhiwu/junlei/junlei.htm">菌类(低等植物)</A><BR>
+		  <A onmouseover="expandMenu('Chapter6menuSub02');" href="../../didengzhiwu/zaolei/zaolei.htm">藻类(低等植物)</A><BR>
+		  <A onmouseover="expandMenu('Chapter6menuSub02');" href="../../didengzhiwu/diyi/diyi.htm">地衣(低等植物)</A><BR>
+		  <A onmouseover="expandMenu('Chapter6menuSub02');" href="../taixian/taixian.htm">苔藓植物(高等植物)</A><BR> 		  
+		  <A onmouseover="expandMenu('Chapter6menuSub02');" href="../juelei/juelei.htm">蕨类植物(高等植物)</A><BR>
+		  <A onmouseover="expandMenu('Chapter6menuSub02');" href="../luozi/luozi.htm">裸子植物(高等植物)</A><BR> 		  
+		  <A onmouseover="expandMenu('Chapter6menuSub02');" href="../taixian/beizizhiwu.htm">被子植物(高等植物)</A><BR>		 
+	  </DIV>
+    <td bgcolor="#000000" width="1"></td>	  	
+    <td width="200" onmouseover="expandMenu(null,'Chapter7menu',321,123);" onmouseout="hideMe();" align="center" class="white_s14_1_b">被子植物及其主要分科</td>
+	  <DIV class="menu1" id="Chapter7menu" onmouseout="hideMe();">
+		  <A onmouseover="expandMenu('Chapter7menu','Chapter7menuSub01');" href="../../../xingtaixue/index.htm">被子植物形态学基础 &gt;&gt;</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menu','Chapter7menuSub02');" href="beizizhiwu.htm">双 子 叶 植 物 纲 &gt;&gt;</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menu','Chapter7menuSub03');" href="danziyezhiwu.htm">单 子 叶 植 物 纲 &gt;&gt;</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menu');" href="bz-qiyuan.htm">被子植物起源与进化</A><BR>											
+	  </DIV>
+	  <DIV class="menu" id=Chapter7menuSub01 onmouseout=hideMe();>
+		  <A onmouseover="expandMenu('Chapter7menuSub01');" href="../../../xingtaixue/jing/1.htm">植物的茎</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub01');" href="../../../xingtaixue/ye/1.htm">植物的叶</A><BR> 
+		  <A onmouseover="expandMenu('Chapter7menuSub01');" href="../../../xingtaixue/hua/1.htm">植物的花</A><BR> 
+		  <A onmouseover="expandMenu('Chapter7menuSub01');" href="../../../xingtaixue/guoshi/1.htm">植物的果</A><BR> 		 
+	  </DIV>	  
+	  <DIV class="menu" id=Chapter7menuSub02 onmouseout=hideMe();>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-mulanke.htm">木兰科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-maoliangke.htm">毛茛科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-sangke.htm">桑 科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-shizhuke.htm">石竹科</A><BR> 		  
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-jinkuike.htm">锦葵科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-huluke.htm">葫芦科</A><BR> 		  
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-yangliuke.htm">杨柳科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-shizihuake.htm">十字花科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-qiangweike.htm">蔷薇科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-douke.htm">豆 科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-dajike.htm">大戟科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-yunxiangke.htm">芸香科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-sanxingke.htm">伞形科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-qieke.htm">茄 科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-xuanhuake.htm">旋花科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-chunxingke.htm">唇形科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub02');" href="szy-jvke.htm">菊 科</A><BR>		 
+	  </DIV>
+	  <DIV class="menu" id=Chapter7menuSub03 onmouseout=hideMe();>
+		  <A onmouseover="expandMenu('Chapter7menuSub03');" href="dzy-zexieke.htm">泽泻科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub03');" href="dzy-shacaoke.htm">莎草科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub03');" href="dzy-hebenke.htm">禾本科</A><BR>
+		  <A onmouseover="expandMenu('Chapter7menuSub03');" href="dzy-baiheke.htm">百合科</A><BR> 		  				
+	  </DIV>	  
+    <td bgcolor="#000000" width="1"></td>
+    <td>&nbsp; </td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="421" valign="top" bgcolor="#EFEFEF"> 
+      <div id=ResourceLeft style="display:none;">
+      <table width="171" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+            <td bgcolor="#EFEFEF" valign="top"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td>&nbsp;</td>
+                </tr>
+                <tr> 
+                  <td height="34" class="deepgreen_s14_15_bc"  align="center"> 
+                    <div align="center"onmouseover="expandMenu(null,'Dagangmenu',130,148);" onmouseout="hideMe();"><a href="#">教 学 大 纲</a></div></td> 
+                   
+                    <DIV class="menuleft" id="Dagangmenu" onmouseout="hideMe();"> 
+                      <A onmouseover="expandMenu('Dagangmenu');" href="../../../../../dagang/Group.htm">植物分类及类群</A><BR>
+                      <A onmouseover="expandMenu('Dagangmenu');" href="../../../../../dagang/Morphologic.htm">被子植物及其分科</A><BR>
+                    </DIV>
+                 
+                </tr>
+                <tr> 
+                  <td height="35" class="deepgreen_s14_15_b"> 
+                    <div align="center"onmouseover="expandMenu(null,'referencemenu',130,182);" onmouseout="hideMe();"><a href="#">参 考 资 料</a>
+                    </div>
+                  </td>
+                    <DIV class="menuleft" id="referencemenu" onmouseout="hideMe();"> 
+                      <A onmouseover="expandMenu('referencemenu');" href="../../../../../Reference/Book.asp" target="_blank">参 考 书 籍</A><BR>
+                      <A onmouseover="expandMenu('referencemenu');" href="../../../../../Reference/Weburl.asp" target="_blank">参 考 网 页</A><BR> 
+                    </DIV>				  
+                </tr>
+                <tr> 
+                  <td height="35" class="deepgreen_s14_15_b"> 
+                    <div align="center"><a href="../../../../../baseknowledge/base.asp" target="_blank">相 关 知 识</a></div>
+                  </td>
+                </tr>
+                <tr> 
+                  <td height="35" class="deepgreen_s14_15_b"> 
+                    <div align="center"><a href="../../../../../test/test.asp" target="_blank">模 拟 试 题</a></div>
+                  </td>
+                </tr>
+                <tr> 
+                  <td height="35" class="deepgreen_s14_15_b"> 
+                    <div align="center"><a href="../../../../../homework/homework.asp" target="_blank">课 程 作 业</a></div>
+                  </td>
+                </tr>
+                <tr> 
+                  <td height="35" class="deepgreen_s14_15_b"> 
+                    <div align="center"><a href="../../../../../WordDefine/WordDefine.asp" target="_blank">名 词 解 释</a></div>
+                  </td>
+                </tr>
+                <tr> 
+                  <td height="35" class="deepgreen_s14_15_b"> 
+                    <div align="center"><a href="../../../../../exam/onlineexam.asp" target="_blank">在 线 测 试</a></div>
+                  </td>
+                </tr>
+                <tr> 
+                  <td height="35" class="deepgreen_s14_15_b"> 
+                    <div align="center"><a href="../../../../../media/media.asp" target="_blank">课 程 媒 体 库</a></div>
+                  </td>
+                </tr>
+                <tr> 
+                  <td height="35" class="deepgreen_s14_15_b"> 
+                    <div align="center"><a href="../../../../../PageSearch/PageSearch.asp" target="_blank">课 程 查 询</a></div>
+                  </td>
+                </tr>
+                <tr> 
+                  <td height="35" class="deepgreen_s14_15_b"> 
+                    <div align="center"><a href="../../../../../onlineanswer/question.asp" target="_blank">线 上 答 疑</a></div>
+                  </td>
+                </tr>
+                <tr> 
+                  <td height="35" class="deepgreen_s14_15_b"> 
+                    <div align="center"><a href="../../../../../bbs/bbsmain.asp" target="_blank">交 流 园 地</a></div>
+                  </td>
+                </tr>				
+              </table>
+            </td>
+        </tr>
+      </table>
+	  </div>
+    </td>
+    <td valign="top" width="100%"> 
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" height="420" align="left">
+			<tr>
+			<td height="35" bgcolor="#D2DFF2"> <!-- #BeginEditable "nowlocation" --><span class="location">&nbsp;&nbsp;目前的位置：植物分类及类群 
+                  &gt;&gt; 基本类群 &gt;&gt; 高等植物 &gt;&gt; 被子植物 &gt;&gt; 单子叶 &gt;&gt; 
+                  姜科 &gt;&gt; 姜</span><!-- #EndEditable --> 
+			</td>
+		  </tr>
+		  <tr>
+			<td valign="top" align="left"><!-- #BeginEditable "contant" -->
+				  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="490">
+					<tr> 
+					  <td width="30">&nbsp;</td>
+					  <td valign="top" align="left"> 
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+						  <tr> 
+							<td><br>
+							  <span class="biaoti"> 姜 Zingiber officinale Rose.</span> 
+							  <hr width="75%" size="1" align="left">
+							</td>
+						  </tr>
+						  <tr> 
+							<td height="402" align="left" valign="top" class="neirong"> 
+							  <p>&nbsp;&nbsp;&nbsp;&nbsp;根状茎肉质，扁平，有短指状分枝。穗状花序由根茎抽出；苞片淡绿色，卵形，长约2.5厘米；花冠黄绿色，唇瓣倒卵状圆形，下部二侧各有小裂片，有紫色、黄白色斑点。原产太平洋群岛。我国中部、东南部至西南部广为栽培。根状茎含辛辣成分和芳香成分，入药能发汗解表，温中止呕，解毒，又作蔬菜和调味用。</p>
+							  <p>&nbsp;</p>
+							  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+								<tr align="center"> 
+								  <td><A onmouseover="dts('112','#003399','#CDDDEB','&nbsp;&nbsp;-点击图片放大-'); return true;"  onmouseout="nd(); return true;" href="javascript:MachakFull('images/dzy-jiangke-j-1.jpg','');"><img src="images/dzy-jiangke-j-1s.jpg" width="136" height="127" border="0"></a></td>
+								  <td><A onmouseover="dts('112','#003399','#CDDDEB','&nbsp;&nbsp;-点击图片放大-'); return true;"  onmouseout="nd(); return true;" href="javascript:MachakFull('images/dzy-jiangke-j-2.jpg','');"><img src="images/dzy-jiangke-j-2s.jpg" width="136" height="127" border="0"></a></td>
+								  <td><A onmouseover="dts('112','#003399','#CDDDEB','&nbsp;&nbsp;-点击图片放大-'); return true;"  onmouseout="nd(); return true;" href="javascript:MachakFull('images/dzy-jiangke-j-3.jpg','');"><img src="images/dzy-jiangke-j-3s.jpg" width="136" height="127" border="0"></a></td>
+								  <td><A onmouseover="dts('112','#003399','#CDDDEB','&nbsp;&nbsp;-点击图片放大-'); return true;"  onmouseout="nd(); return true;" href="javascript:MachakFull('images/dzy-jiangke-j-4.jpg','');"><img src="images/dzy-jiangke-j-4s.jpg" width="136" height="127" border="0"></a></td>
+								</tr>
+							  </table>
+							  
+							  <p>&nbsp;</p>
+							</td>
+						  </tr>
+						  <tr> 
+							<td height="40" align="right" class="back"><a href="dzy-jiangke.htm" class="back">&lt;&lt;&lt;上一页</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						  </tr>
+						</table>
+					  </td>
+					  <td width="30">&nbsp;</td>
+					</tr>
+				  </table>
+				  <!-- #EndEditable --></td>
+		  </tr>
+		</table>	
+    </td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="12" bgcolor="#9AA5B8"></td>
+  </tr>
+  <tr>
+    <td height="1"></td>
+  </tr>
+   <tr>
+    <td height="2" bgcolor="#9AA5B8"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="60">
+  <tr>
+    <td bgcolor="#4674C1" align="center"> 
+      <div align="center">
+        <p><br>
+          <span class="root">注意：请用IE4.0以上版本,800*600以上分辨率浏览本页面<br>
+          <br>
+          如有任何问题请与南京农业大学生命科学学院植物科学系联系</span></p>
+      </div>
+	</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>
